@@ -43,8 +43,6 @@ Learn how network traffic flows when visiting a website and understand what info
 - Verified HTTPS encrypts payload data while exposing metadata during TLS negotiation.
 
 ## Artifacts
-- tcp_vs_udp_notes.md
-- top_ports_security_notes.md
 - Wireshark_week02.pdf
 - TryHackMe_week02.pdf
 
