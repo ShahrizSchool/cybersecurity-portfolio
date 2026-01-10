@@ -52,4 +52,4 @@ Linux systems maintain extensive logs that record authentication events, system 
 - Wireshark_Week03.pdf
 
 ## Summary
-Week 3 reinforced Linux fundamentals through a security-focused lens. Rather than introducing new tools, the emphasis was on understanding how everyday Linux features—users, permissions, services, and logs—can become attack vectors when misconfigured. This foundation is critical for later topics such as privilege escalation, persistence, and incident response.
+Week 3 reinforced Linux fundamentals through a security-focused lens. Rather than introducing new tools, the emphasis was on understanding how everyday Linux features like users, permissions, services, and logs can become attack vectors when misconfigured. This foundation is critical for later topics such as privilege escalation, persistence, and incident response.
