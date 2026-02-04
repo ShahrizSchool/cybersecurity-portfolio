@@ -21,7 +21,7 @@ No scanning, probing, or exploitation was performed.
 - Network: VirtualBox Host-only
 - Status: Connectivity verified
 
-![Defender Ping](defender_ping.png)
+![Defender Ping](screenshots/defender_ping.png)
 
 ### Attacker System
 - OS: Kali Linux
@@ -29,7 +29,7 @@ No scanning, probing, or exploitation was performed.
 - Network: VirtualBox Host-only
 - Status: Connectivity verified
 
-![Attacker Ping](attacker_ping.png)
+![Attacker Ping](screenshots/attacker_ping.png)
 
 ## Observations
 - Each VM was assigned a unique IP address
