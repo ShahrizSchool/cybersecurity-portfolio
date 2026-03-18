@@ -18,7 +18,7 @@ Each week builds on core concepts and reinforces them through hands-on exercises
 ## Skills Demonstrated
 - Packet analysis using Wireshark  
 - Network scanning with Nmap  
-- Log analysis (authentication and system logs)  
+- Log analysis
 - Firewall configuration using UFW  
 - HTTP traffic inspection with Burp Suite  
 - Understanding of common vulnerabilities and security risks  
