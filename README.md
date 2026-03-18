@@ -8,6 +8,7 @@ Topics covered include:
 
 - Network traffic analysis and protocols  
 - Linux systems and log monitoring  
+- Cryptography 
 - Port scanning and enumeration  
 - Web application security (OWASP concepts)  
 - Authentication and access control  
