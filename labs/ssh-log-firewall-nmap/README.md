@@ -28,7 +28,7 @@ From the Kali machine, a SYN scan was performed against the Ubuntu target system
 
 Initial results showed that all ports were filtered, which indicated that the firewall was blocking incoming connections.
 
-![Nmap scan results](screenshots/nmap-scan.png)
+![Nmap scan results](screenshots/nmap-scan.PNG)
 
 ## SSH Connection Attempts and Log Analysis
 
@@ -38,7 +38,7 @@ The connection successfully reached the SSH service but authentication failed be
 
 While these login attempts were being made, the authentication logs on the Ubuntu system were monitored.
 
-![SSH Attempt](screenshots/ssh.png)
+![SSH Attempt](screenshots/ssh.PNG)
 
 Log entries recorded during the SSH attempt:
 ```
@@ -50,7 +50,7 @@ Mar 6 20:50:26 sshd: Failed password for invalid user kali from 192.168.181.4 po
 
 These entries show the attempted username, the time the commands were excuted, the source IP address of the connection, and the result of the authentication attempt. This type of logging is important for detecting unauthorized login attempts or brute-force activity.
 
-![Authentication log entries](screenshots/auth-logs.png)
+![Authentication log entries](screenshots/auth-logs.PNG)
 
 ## Firewall Configuration (UFW)
 The Ubuntu system used UFW (Uncomplicated Firewall) to control whether the SSH service could be accessed from other machines on the network.
@@ -59,7 +59,7 @@ When SSH traffic was allowed, the Kali machine was able to reach the SSH service
 
 Once the rule was applied, the SSH connection attempts from Kali were no longer able to reach the service.
 
-![UFW firewall rules](screenshots/ufw-rules.png)
+![UFW firewall rules](screenshots/ufw-rules.PNG)
 
 ## Security Observations
 This lab demonstrates several important behaviors in a Linux environment. SSH authentication attempts are recorded in `/var/log/auth.log`, which provides visibility into failed login attempts and the IP address of the system making the request. Network scanning tools such as Nmap can help determine whether a service is reachable, while firewall rules control whether that service is accessible from other systems on the network.
