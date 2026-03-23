@@ -27,4 +27,4 @@ Recommended security improvements include:
 - Using a SIEM for alerting and detection
 
 ## Full Incident Report
-See **security-incident-report.md** for detailed analysis.
+See **OS-hardening.md** for detailed analysis.
