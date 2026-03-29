@@ -11,7 +11,7 @@ SELECT *
 FROM log_in_attempts
 WHERE login_time > '18:00' AND success = 0;
 ```
-![Login attempts after hours](screenshots/after-hours-failed-login.png)
+![Login attempts after hours](screenshots/after-hours-failed-login.PNG)
 
 I selected all data from the `log_in_attempts` table and applied two conditions using the `WHERE` clause. The first condition filters for login attempts that occurred after 18:00. The second condition filters for failed login attempts, where a value of `0` represents an unsuccessful login.
 
@@ -23,7 +23,7 @@ SELECT *
 FROM log_in_attempts
 WHERE login_date = '2022-05-09' OR login_date = '2022-05-08';
 ```
-![Login attempts specified dates](screenshots/login-attempts-dates.png)
+![Login attempts specified dates](screenshots/login-attempts-dates.PNG)
 
 I selected all data from the `log_in_attempts` table and applied two conditions. The first condition filters login attempts on `2022-05-09`, and the second condition filters login attempts on `2022-05-08`. The `OR` operator allows results from either date to be returned.
 
@@ -35,7 +35,7 @@ SELECT *
 FROM log_in_attempts
 WHERE NOT country LIKE 'MEX%';
 ```
-![Login attempts expect mexico](screenshots/login-attempts-not-mexico.png)
+![Login attempts expect mexico](screenshots/login-attempts-not-mexico.PNG)
 
 I selected all data from the `log_in_attempts` table and filtered the results using the `WHERE` clause. The `LIKE 'MEX%'` pattern matches values such as "MEXICO" or "MEX". The `NOT` operator ensures that only login attempts from countries outside of Mexico are returned.
 
@@ -47,7 +47,7 @@ SELECT *
 FROM employees
 WHERE department = 'Marketing' AND office LIKE 'East%';
 ```
-![Deparment marketing and office east](screenshots/marketing-east.png)
+![Deparment marketing and office east](screenshots/marketing-east.PNG)
 
 
 I selected all data from the `employees` table and applied two conditions. The first condition filters employees whose department is "Marketing". The second condition filters offices that begin with "East". The `AND` operator ensures both conditions must be met.
@@ -60,7 +60,7 @@ SELECT *
 FROM employees
 WHERE department = 'Finance' OR department = 'Sales';
 ```
-![Department finance or sales](screenshots/finance-or-sales.png)
+![Department finance or sales](screenshots/finance-or-sales.PNG)
 
 I selected all data from the `employees` table and applied two conditions. The first condition filters employees in the "Finance" department. The second condition filters employees in the "Sales" department. The `OR` operator returns employees belonging to either department.
 
@@ -72,7 +72,7 @@ SELECT *
 FROM employees
 WHERE NOT department = 'Information Technology';
 ```
-![All employees not in IT](screenshots/not-IT.png)
+![All employees not in IT](screenshots/not-IT.PNG)
 
 I selected all data from the `employees` table and filtered the results using the `WHERE` clause. The `NOT` operator excludes employees whose department is "Information Technology".
 
